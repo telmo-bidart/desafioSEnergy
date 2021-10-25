@@ -1,4 +1,4 @@
-[
+export var clientData = [
     {
         "numeroCliente": 1,
         "nomeCliente": "Ana Silva",
@@ -17,7 +17,7 @@
         [
             {
                 "usinaId": 1,
-                "percentualDeParticipacao": 20
+                "percentualDeParticipacao": "marmota"
             }
         ]
     },

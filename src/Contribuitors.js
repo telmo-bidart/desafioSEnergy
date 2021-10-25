@@ -1,9 +1,16 @@
 import './App.css';
+import { clientData } from "./dadosClientes";
 
 function Contribuitors() {
   return (
-    <div>
-        <h1>contribuintes</h1>
+    <div> 
+        {clientData.map((data, key) => {
+            return (
+                <div key={key}>
+                    {data.numeroCliente + " , " + data.nomeCliente + " , " + data["usinas"]["usinaId"] + " , " + data.usinas.percentualDeParticipacao}
+                </div>
+            );
+        })}
     </div>
   );
 }
