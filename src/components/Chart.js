@@ -5,7 +5,7 @@ import { usinaData } from './dadosUsina';
 let chart = () => (
     <ResponsiveContainer width="100%" height={550}>
     <LineChart data={usinaData}
-    margin={{top: 100, right:100, left: 100, bottom: 1}}>
+    margin={{top: 120, right:100, left: 100, bottom: 1}}>
       <CartesianGrid strokeDasharray="1 1" />
       <XAxis dataKey="tempo_h" />
       <YAxis />
