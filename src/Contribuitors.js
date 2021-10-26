@@ -4,10 +4,10 @@ import { clientData } from "./dadosClientes";
 function Contribuitors() {
   return (
     <div> 
-        {clientData.map((data, key) => {
+        {clientData.map((data, id) => {
             return (
-                <div key={key}>
-                    {data.numeroCliente + " , " + data.nomeCliente + " , " + data["usinas"]["usinaId"] + " , " + data.usinas.percentualDeParticipacao}
+                <div key={id}>
+                    {data.numeroCliente + " , " + data.nomeCliente + " , " + data['usinas'][0]['usinaId'] + " , " + data['usinas'][0]['percentualDeParticipacao'] + "%"}
                 </div>
             );
         })}

@@ -17,7 +17,7 @@ export var clientData = [
         [
             {
                 "usinaId": 1,
-                "percentualDeParticipacao": "marmota"
+                "percentualDeParticipacao": 20
             }
         ]
     },
